@@ -1,0 +1,42 @@
+.one{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.two{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+table,th,td{
+    border: 1px solid black;
+    justify-content: center;
+   
+}
+.a,.b,.c{
+    font-size: 20px;
+    
+}
+h1{
+    font-size: 40px;
+}
+.three{
+    margin-left: 30%;
+}
+.four{
+    margin-left: 30%;
+}
+.five{
+    margin-left: 40%;
+}
+img{
+    height: 400px;
+}
+.d{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+.e{
+    font-size: 40px;
+}
