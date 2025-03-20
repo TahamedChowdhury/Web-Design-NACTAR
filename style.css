@@ -1,42 +1,130 @@
-.one{
-    justify-content: center;
+.full{
+    display:flex;
     align-items: center;
-    text-align: center;
+    justify-content: center;
+}
+.one{
+    margin: 20px;
+    padding: 20px;
 }
 .two{
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-table,th,td{
-    border: 1px solid black;
-    justify-content: center;
-   
-}
-.a,.b,.c{
-    font-size: 20px;
-    
-}
-h1{
-    font-size: 40px;
+    margin: 20px;
+    padding: 20px;
 }
 .three{
-    margin-left: 30%;
+    margin: 20px;
+    padding: 20px;
 }
-.four{
-    margin-left: 30%;
-}
-.five{
-    margin-left: 40%;
-}
-img{
-    height: 400px;
-}
-.d{
+h1{
     text-align: center;
-    background-color: black;
+}
+.top{
+    font-size: 50px;
+    color:rgb(31, 216, 160);
+}
+p{
+    font-size: 20px;
+    margin: 20px;
+}
+.navbar{
+    background-color: rgb(68, 32, 7);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.navdiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ .logo h1{
+    margin: 10px;
+    font-size: 35px;
+    font-weight: 600;
+    color: rgb(185, 10, 10);
+ }
+
+ a{
+    list-style: none;
+    display: inline-block;
+    text-decoration: none;
+ }
+ .nav-menu a{
     color: white;
-}
-.e{
-    font-size: 40px;
-}
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 25px;
+ }
+ .nav-menu a:hover{
+    color: red;
+ }
+ footer{
+    background-color:rgb(68, 32, 7) ;
+    color: white;
+    text-align: center;
+    padding: 20px;
+ }
+ 
+  .formbold-pt-3 {
+    padding-top: 12px;
+  }
+  .formbold-main-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 48px;
+  }
+
+  .formbold-form-wrapper {
+    margin: 0 auto;
+    max-width: 550px;
+    width: 100%;
+    background: white;
+  }
+  .formbold-form-label {
+    display: block;
+    font-weight: 500;
+    font-size: 16px;
+    color: #07074d;
+    margin-bottom: 12px;
+  }
+  .formbold-form-label-2 {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .formbold-form-input {
+    width: 100%;
+    padding: 12px 24px;
+    border-radius: 6px;
+    border: 1px solid #e0e0e0;
+    background: white;
+    font-weight: 500;
+    font-size: 16px;
+    color: #596b8d;
+    outline: none;
+    resize: none;
+  }
+  .formbold-form-input:focus {
+    border-color: #4848a8;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
+  }
+
+  .formbold-btn {
+    text-align: center;
+    font-size: 16px;
+    border-radius: 6px;
+    padding: 14px 32px;
+    border: none;
+    font-weight: 600;
+    background-color: #692222;
+    color: white;
+    
+  }
+  .formbold-btn:hover {
+    box-shadow: 0px 3px 8px rgba(218, 5, 5, 0.952);
+  }
+
+ 
